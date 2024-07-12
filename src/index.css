@@ -1,0 +1,120 @@
+
+body {
+  margin: 0;
+  padding:0;
+  /* background:linear-gradient(90deg, #BEC9D3, #CADCE8); */
+  /* background-image:url('src/images/FNS.png '); */
+}
+
+.signCard{
+  background-color:none;
+  border-style: none;
+  display:flex;
+  flex-direction:row;
+  align-items:start;
+  justify-content:center;
+  /* max-width:800px; */
+  margin: 10% auto;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+
+
+#logo{
+  margin-top:-15% ;
+  margin-right:50px;
+}
+
+.Welcome{
+  color:#E3992A;
+  font-size: 60px;
+  padding:15px;
+  /* margin-top: *%; */
+}
+a{
+  color: #f3d5a9;
+}
+ 
+/* .signIn .signUp .terms-conditions {
+  color:#E3992A;
+} */
+
+a:hover{
+  color:#f57200;
+  font-size: 17px;
+}
+ 
+/* a:visited{
+  color:#afbde1;
+} */
+/* #afbde1  , a::after*/
+
+form{
+  margin:auto;
+}
+form fieldset{
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  padding:25px;
+}
+
+form label{
+  color:#ffffff;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:10px;
+  font-size: 20px;
+}
+form input{
+  border-radius:10px;
+  border-style:none;
+  font-size: 25px;
+}
+ 
+.terms {
+ /* margin:-5px 20px; */
+ margin-left: 40px;
+ margin-top: -20px;
+}
+span{
+  color:white;
+}
+
+
+
+.submit-button{
+  border-radius:10px;
+  border-style: none;
+  font-size: 20px;
+  width:300px;
+  margin-left: 20px;
+  padding:10px;
+  margin-top:10px;
+
+} 
+.submit-button:hover{
+  color:#E3992A ;
+  font-size: 21px;
+}
+
+p{
+  color:white ;
+  font-size: 18px;
+  margin-left: 20px;
+}
+/* .signIn, .signUp{
+  color:#E3992A;
+  background: none;
+ border-style: none;
+}
+
+.signIn:hover, .signUp:hover{
+  color:#f3d5a9;
+  font-size: 16px;
+} */

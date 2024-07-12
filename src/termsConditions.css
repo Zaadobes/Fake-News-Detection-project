@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding:0;
+    /* background:linear-gradient(90deg, #BEC9D3, #CADCE8); */
+  }
+
+  h1{
+    color:#E3992A;
+  }
+
+  .Terms{
+    background-color:#E5E5E5 ;
+  }
